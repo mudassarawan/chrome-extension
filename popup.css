@@ -1,0 +1,24 @@
+.container {
+    width: 200px;
+    display: inline-block;
+    padding: 10px 10px;
+}
+.content {
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+    border : none;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #FB4D19;
+    color: aliceblue;
+    cursor: pointer;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}

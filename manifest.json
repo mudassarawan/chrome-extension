@@ -1,0 +1,21 @@
+{
+    "name" : "Buy with GlobalShop from Amazon",
+    "description" : "Buy with GlobalShop from Amazon. Let Globalshopaholics buy for you with the best prices.",
+    "version"   : "1.0.0",
+    "manifest_version"  :3,
+    "icons": {
+        "16": "favicon/16.png",
+        "32": "favicon/32.png",
+        "48": "favicon/48.png",
+        "128": "favicon/128.png"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts" : [
+        {
+            "matches"   : ["<all_urls>"],
+            "js"        : ["script.js"]
+        }        
+    ]
+}
